@@ -3,7 +3,6 @@
 <h1>Movie Results</h1>
 
 <div class="moviesWrapper">
-
   <% data['Search'].forEach(function(movie) { %>
     <div class="movieCard">
 
@@ -20,7 +19,8 @@
 
     </div>
   <% }); %>
-
 </div>
+
+<div class="backLink"><a href="/">Search Again</a></div>
 
 <% include partials/footer %>
