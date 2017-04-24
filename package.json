@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/agm1984/movieSearchApp/issues"
   },
-  "homepage": "https://github.com/agm1984/movieSearchApp#readme"
+  "homepage": "https://github.com/agm1984/movieSearchApp#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "request": "^2.81.0"
+  }
 }

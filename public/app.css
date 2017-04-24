@@ -1,0 +1,80 @@
+/* Header */
+body {
+  margin: 0;
+  background-color: #232323;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+h1 {
+  flex: 0;
+  margin: 0;
+  color: white;
+  background-color: RGB(104, 211, 178);
+  line-height: 75px;
+  text-align: center;
+  border-bottom: 10px solid white;
+}
+
+/* Movie Search View */
+.searchBox {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#searchInput {
+  height: 30px;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  padding-left: 10px;
+}
+#searchButton {
+  height: 30px;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Movie Results View */
+.moviesWrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin-bottom: 10px;
+}
+.movieCard {
+  margin: 20px 10px 10px 10px;
+  background-color: #a27753;
+}
+img {
+  height: 100%;
+  width: auto;
+}
+.moviePoster {
+  height: 350px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.movieInfo {
+  color: white;
+  padding: 10px;
+}
+
+/* Footer */
+footer {
+  flex: 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: darkgray;
+  color: black;
+  line-height: 75px;
+  border-top: 10px solid RGB(104, 211, 178);
+}

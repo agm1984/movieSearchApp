@@ -1,0 +1,26 @@
+<% include partials/header %>
+
+<h1>Movie Results</h1>
+
+<div class="moviesWrapper">
+
+  <% data['Search'].forEach(function(movie) { %>
+    <div class="movieCard">
+
+      <div class="moviePoster">
+        <img src=<%= movie['Poster'] %>/>
+      </div>
+
+      <div class="movieInfo">
+        <div><b>Title:</b> <%= movie['Title'] %></div>
+        <div><b>Year:</b> <%= movie['Year'] %></div>
+        <div><b>IMDB ID:</b> <%= movie['imdbID'] %></div>
+        <div><b>Type:</b> <%= movie['Type'] %></div>
+      </div>
+
+    </div>
+  <% }); %>
+
+</div>
+
+<% include partials/footer %>
